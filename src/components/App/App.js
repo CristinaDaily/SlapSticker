@@ -90,7 +90,7 @@ function App() {
           </main>
         </Route>
 
-        <Route path="/readme">
+        <Route path="/description">
           <Info />
         </Route>
         <Redirect to="/" />

@@ -12,7 +12,7 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <Link to="/readme" className={classes.link}>
+              <Link to="/description" className={classes.link}>
                 Project description
               </Link>
             </li>

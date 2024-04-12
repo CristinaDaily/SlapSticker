@@ -40,6 +40,10 @@ const useStyles = createUseStyles((theme) => ({
     textDecoration: "none",
     fontSize: "15px",
     fontWeight: 500,
+
+    "&:hover": {
+      opacity: 0.7,
+    },
   },
 
   button: {
