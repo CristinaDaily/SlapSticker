@@ -19,7 +19,7 @@ const useStyles = createUseStyles((theme) => ({
       textAlign: "center",
       width: "100%",
       color: theme.palette.text2,
-      fontSize: "13px",
+      fontSize: "15px",
       marginTop: "8px",
       marginBottom: "8px",
     },
@@ -30,7 +30,7 @@ const useStyles = createUseStyles((theme) => ({
     },
     "& button": {
       background: theme.palette.primary,
-      color: theme.palette.text2,
+      color: theme.palette.secondary,
       textAlign: "center",
       borderRadius: "20px",
       alignSelf: "center",

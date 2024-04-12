@@ -28,7 +28,7 @@ const useStyles = createUseStyles((theme) => ({
       fontFamily: "Inter, sans-serif",
       letterSpacing: "3px",
       cursor: "pointer",
-      fontSize: "5rem",
+      fontSize: "80px",
       margin: "0",
       fontWeight: 800,
       width: "630px",
@@ -36,7 +36,7 @@ const useStyles = createUseStyles((theme) => ({
       color: theme.palette.secondary,
 
       "@media screen and (max-width: 900px)": {
-        fontSize: "4rem",
+        fontSize: "68px",
         width: "430px",
       },
       "@media screen and (max-width: 500px)": {

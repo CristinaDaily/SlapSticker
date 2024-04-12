@@ -11,6 +11,7 @@ import ChooseStage from "../ChooseStage";
 import PicturePopup from "../PicturePopup";
 import CameraStage from "../CameraStage";
 import GalleryStage from "../GalleryStage";
+import Footer from "../Footer";
 import useStyles from "./App.styles.js";
 
 function App() {
@@ -164,6 +165,7 @@ function App() {
         </Route>
         <Redirect to="/" />
       </Switch>
+      <Footer />
       <PicturePopup picture={selectedPicture} onClose={handeCloePopup} />
     </div>
   );

@@ -4,15 +4,27 @@ const useStyles = createUseStyles((theme) => ({
   ChooseBox: {
     display: "flex",
     flexDirection: "row",
-    gap: "20px",
+    gap: "10px",
     alignItems: "center",
+
+    "@media screen and (max-width: 500px)": {
+      gap: "4px",
+    },
   },
 
   Name: {
     display: "flex",
     flexDirection: "column",
     gap: "20px",
-    width: "490px",
+    width: "460px",
+
+    "@media screen and (max-width: 900px)": {
+      width: "350px",
+    },
+
+    "@media screen and (max-width: 350px)": {
+      width: "280px",
+    },
 
     "& input": {
       border: "0",
@@ -21,17 +33,40 @@ const useStyles = createUseStyles((theme) => ({
       padding: "0",
       borderBottom: `2px solid ${theme.palette.primary}`,
       outline: "0",
-      fontSize: "1.3rem",
+      fontSize: "20px",
       background: "transparent",
       color: theme.palette.text2,
+      width: "250px",
+
+      "@media screen and (max-width: 900px)": {
+        width: "180px",
+      },
+      "@media screen and (max-width: 350px)": {
+        fontSize: "15px",
+        width: "155px",
+      },
     },
   },
 
   Stickers: {
     "& img": {
       height: "4rem",
+
+      "@media screen and (max-width: 900px)": {
+        height: "2rem",
+      },
     },
-    maxWidth: "490px",
+    width: "460px",
+
+    "@media screen and (max-width: 1069px)": {
+      marginTop: "10px",
+    },
+    "@media screen and (max-width: 900px)": {
+      width: "350px",
+    },
+    "@media screen and (max-width: 350px)": {
+      width: "280px",
+    },
   },
 
   ReadyButton: {
@@ -45,6 +80,10 @@ const useStyles = createUseStyles((theme) => ({
     width: "310px",
     height: "50px",
     fontSize: "18px",
+
+    "@media screen and (max-width: 400px)": {
+      width: "260px",
+    },
   },
 
   Wrapper: {
@@ -53,7 +92,7 @@ const useStyles = createUseStyles((theme) => ({
     flexDirection: "row",
     justifyContent: "space-around",
     flexFlow: " column wrap",
-    gap: "30px",
+    gap: "10px",
   },
 
   Section: {
@@ -63,10 +102,18 @@ const useStyles = createUseStyles((theme) => ({
     flexDirection: "column",
 
     "& p": {
-      fontSize: "1.5rem",
+      fontSize: "25px",
       fontFamily: "Inter, sans-serif",
       color: theme.palette.text2,
       margin: "0",
+
+      "@media screen and (max-width: 900px)": {
+        fontSize: "20px",
+      },
+
+      "@media screen and (max-width: 350px)": {
+        fontSize: "16px",
+      },
     },
   },
 

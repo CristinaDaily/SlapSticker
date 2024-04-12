@@ -13,10 +13,14 @@ const useStyles = createUseStyles((theme) => ({
     margin: "0 auto",
 
     "& h2": {
-      fontSize: "3rem",
+      fontSize: "35px",
       fontFamily: "Inter, sans-serif",
       color: theme.palette.text2,
       margin: "0",
+
+      "@media screen and (max-width: 900px)": {
+        fontSize: "25px",
+      },
     },
     "& button": {
       border: "none",

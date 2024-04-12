@@ -29,7 +29,7 @@ function ChooseStage({
         <div className={classes.Name}>
           <h2>01</h2>
           <div className={classes.ChooseBox}>
-            <p>Give it a name</p>
+            <p>Give it a name:</p>
             <input
               type="text"
               value={title}
