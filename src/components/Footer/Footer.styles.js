@@ -2,7 +2,7 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles((theme) => ({
   Footer: {
-    height: " 10px",
+    height: " 15px",
     paddingLeft: "70px",
     paddingRight: "70px",
 
@@ -13,6 +13,10 @@ const useStyles = createUseStyles((theme) => ({
     "@media screen and (max-width: 767px)": {
       paddingLeft: "14px",
       paddingRight: "14px",
+    },
+    "& p": {
+      color: theme.palette.text2,
+      textAlign: "end",
     },
   },
 }));

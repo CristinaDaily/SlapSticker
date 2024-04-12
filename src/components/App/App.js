@@ -85,6 +85,8 @@ function App() {
                     onPictureClick={onPictureClick}
                   />
                 </div>
+
+                <Footer />
               </>
             )}
           </main>
@@ -95,7 +97,6 @@ function App() {
         </Route>
         <Redirect to="/" />
       </Switch>
-      <Footer />
       <PicturePopup picture={selectedPicture} onClose={handeCloePopup} />
     </div>
   );
