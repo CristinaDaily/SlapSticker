@@ -13,7 +13,7 @@ function Header() {
           <ul>
             <li>
               <Link to="/readme" className={classes.link}>
-                ReadMe
+                Project description
               </Link>
             </li>
             <li>
