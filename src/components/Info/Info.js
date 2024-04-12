@@ -23,12 +23,12 @@ function Info() {
           </li>
           <li>User can place the sticker over the webcam image</li>
           <li>
-            User can capture multple the webcam image with sticker and the app
-            show 3 last made
+            Users can capture multiple webcam images with stickers, and the app
+            will show the last three images taken
           </li>
           <li>
-            User can click on photo to open a popup with a magnified view of the
-            photo
+            User can click on a photo to open a popup with a magnified view of
+            the photo
           </li>
           <li>User can download photo by clicking "download" button </li>
         </ul>

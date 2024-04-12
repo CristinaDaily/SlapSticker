@@ -13,7 +13,7 @@ SlapSticker is an app that lets users to slap stickers on their face, using thei
 - User can place the sticker over the webcam image
 - User can capture the webcam image with sticker
 
-### What was done
+### What was done:
 
 - Updated the layout and visual design to enhance the overall look and feel
 - Responsive design for different screen sizes, for both web and mobile
@@ -21,7 +21,7 @@ SlapSticker is an app that lets users to slap stickers on their face, using thei
 - Added header with navigation buttons for easier navigation within the app
 - Added the possibility to select from multiple stickers, including visual highlighting of the selected sticker for clarity
 - Added "Ready" button which starts the camera stage and scrolls the screen to center it to improve user interaction
-- Added the possibility to store multiple user photos (rander of three last photos taken by user)
+- Added the possibility to store multiple user photos (render of three last photos taken by user)
 - Clicking on photo opens a popup with a magnified view of the photo
 - Added download button on photos
 - Reorganised project files and code
