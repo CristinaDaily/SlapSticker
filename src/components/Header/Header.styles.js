@@ -1,7 +1,4 @@
-import React from "react";
 import { createUseStyles } from "react-jss";
-import { Link } from "react-router-dom";
-import logo from "../images/logo-header.svg";
 
 const useStyles = createUseStyles((theme) => ({
   Header: {
@@ -56,31 +53,4 @@ const useStyles = createUseStyles((theme) => ({
   },
 }));
 
-function Header() {
-  const classes = useStyles();
-  return (
-    <header className={classes.Header}>
-      <div>
-        <img src={logo} alt={logo} />
-        <nav>
-          <ul>
-            <li>
-              <Link to="/readme" className={classes.link}>
-                ReadMe
-              </Link>
-            </li>
-            <li>
-              <button className={classes.button}>
-                <Link to="/" className={classes.link}>
-                  Home
-                </Link>
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  );
-}
-
-export default Header;
+export default useStyles;

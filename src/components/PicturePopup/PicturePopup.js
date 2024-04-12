@@ -1,4 +1,4 @@
-import useStyles from "./Styles";
+import useStyles from "./PicturePopup.styles.js";
 
 function PicturePopup({ picture, onClose }) {
   const classes = useStyles();

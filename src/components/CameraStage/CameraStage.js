@@ -1,4 +1,4 @@
-import useStyles from "./Styles";
+import useStyles from "./CameraStage.styles.js";
 
 function CameraStage({
   section3Ref,
@@ -13,8 +13,7 @@ function CameraStage({
       className={`${classes.Camera} ${classes.Section}`}
       ref={section3Ref}
     >
-      <h2>03</h2>
-      <p>Slap your self!</p>
+      <h2>03: Slap your self!</h2>
 
       <video ref={handleVideoRef} />
       <canvas

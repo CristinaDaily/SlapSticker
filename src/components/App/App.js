@@ -4,13 +4,13 @@ import { useWebcamCapture } from "../../useWebcamCapture.js";
 // import logo from './logo.svg'
 
 import { Switch, Route, Redirect } from "react-router-dom";
-import Header from "../Header.js";
-import About from "../About.js";
+import Header from "../Header";
+import About from "../About";
 import ChooseStage from "../ChooseStage";
 // import Picture from "../Picture.js";
-import PicturePopup from "../PicturePopup.js";
-import CameraStage from "../CameraStage.js";
-import GalleryStage from "../GalleryStage.js";
+import PicturePopup from "../PicturePopup";
+import CameraStage from "../CameraStage";
+import GalleryStage from "../GalleryStage";
 import useStyles from "./App.styles.js";
 
 function App() {

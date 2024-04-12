@@ -1,5 +1,5 @@
 import React from "react";
-import useStyles from "./Styles";
+import useStyles from "./About.styles.js";
 
 function About() {
   const classes = useStyles();

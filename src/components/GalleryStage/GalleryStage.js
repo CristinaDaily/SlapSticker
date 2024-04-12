@@ -1,11 +1,12 @@
-import useStyles from "./Styles";
-import Picture from "./Picture";
+import useStyles from "./GalleryStage.styles.js";
+import Picture from "../Picture";
 
 function GalleryStage({ picture, onPictureClick }) {
   const classes = useStyles();
   return (
     <section className={classes.Gallery}>
-      Step 4: Cherish this moment forever
+      <h2>O4</h2>
+      <p>Cherish this moment forever! Click on photo to enlarge or save it </p>
       <div className={classes.PicContainer}>
         {picture.length > 0 &&
           picture

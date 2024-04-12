@@ -1,5 +1,5 @@
-import { downloadURI } from "../utils";
-import useStyles from "./Styles";
+import { downloadURI } from "../../utils/utils.js";
+import useStyles from "./Picture.styles.js";
 
 function Picture({ url, title, onPictureClick }) {
   const classes = useStyles();

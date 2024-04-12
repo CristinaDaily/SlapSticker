@@ -30,6 +30,22 @@ However, we would like for you to show off your strengths as a developer by impr
 - Organize, document and test the code
 - Integrate with zoom, teams, meet...
 
+### What was done
+
+- Changed layout and visual design
+- Responsive layout for different screen sizes, for both web and mobile
+- Added header with navigation buttons
+- User can select from multiple stickers
+- Selected Sticker is highlighted
+- Added "Ready" button which starts the camera process and scrolls the screen to center it
+- Store multiple user photos (three last photos taken by user)
+- Clicking on photo opens a popup with a magnified view of the photo
+- Photo has download button
+
+- Reorganised project files and code
+
+- Added snapshot sound when taking photo
+
 ### quickstart
 
 - You can clone this repo to get started
