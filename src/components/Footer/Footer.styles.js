@@ -14,10 +14,6 @@ const useStyles = createUseStyles((theme) => ({
       paddingLeft: "14px",
       paddingRight: "14px",
     },
-    "& p": {
-      color: theme.palette.text2,
-      textAlign: "end",
-    },
   },
 }));
 

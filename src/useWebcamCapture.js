@@ -102,7 +102,6 @@ export const useWebcamCapture = (stickerImg, title) => {
     (ev) => {
       if (canvasRef) {
         const data = canvasRef.toDataURL("image/png");
-        //setPicture({ dataUri: data, title });
         const objId = getRnadomId();
         setPicture((prevPictures) => [
           ...prevPictures,

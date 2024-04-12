@@ -1,14 +1,9 @@
 import { useState, useRef } from "react";
-// import { createUseStyles } from "react-jss";
 import { useWebcamCapture } from "../../useWebcamCapture.js";
-// import logo from './logo.svg'
-
 import { Switch, Route, Redirect } from "react-router-dom";
-import { Link, useLocation } from "react-router-dom";
 import Header from "../Header";
 import About from "../About";
 import ChooseStage from "../ChooseStage";
-// import Picture from "../Picture.js";
 import PicturePopup from "../PicturePopup";
 import CameraStage from "../CameraStage";
 import GalleryStage from "../GalleryStage";
@@ -17,19 +12,13 @@ import Info from "../Info";
 import useStyles from "./App.styles.js";
 
 function App() {
-  // css classes from JSS hook
-  const classes = useStyles();
-  // currently active sticker
-
-  const [sticker, setSticker] = useState();
-  // title for the picture that will be captured
-  const [title, setTitle] = useState("");
-  const [ready, setReady] = useState(false);
-  const [selectedPicture, setSelectedPicture] = useState(null);
-
+  const classes = useStyles(); // css classes from JSS hook
+  const [sticker, setSticker] = useState(); // currently active sticker
+  const [title, setTitle] = useState(""); // title for the picture that will be captured
+  const [ready, setReady] = useState(false); //state of reary bth that open camera block
+  const [selectedPicture, setSelectedPicture] = useState(null); // currently selected picture
   const section3Ref = useRef(null);
   const sectionGalleryRef = useRef(null);
-  const location = useLocation();
 
   // webcam behavior hook
   const [

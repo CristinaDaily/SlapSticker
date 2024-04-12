@@ -8,7 +8,8 @@ function GalleryStage({ picture, onPictureClick }) {
       <div className={classes.GallaryInstruction}>
         <h2>O4</h2>
         <p>
-          Cherish this moment forever! Click on photo to enlarge or save it{" "}
+          Cherish this moment forever! Click on photo to enlarge or save it
+          &#128525;
         </p>
       </div>
       <div className={classes.PicContainer}>
