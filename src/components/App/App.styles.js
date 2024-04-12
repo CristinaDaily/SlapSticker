@@ -1,4 +1,5 @@
 import { createUseStyles } from "react-jss";
+import "../../vendor/fonts/inter.css";
 
 const useStyles = createUseStyles((theme) => ({
   "@global body": {

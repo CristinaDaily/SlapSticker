@@ -102,7 +102,7 @@ const useStyles = createUseStyles((theme) => ({
     flexDirection: "column",
 
     "& p": {
-      fontSize: "25px",
+      fontSize: "23px",
       fontFamily: "Inter, sans-serif",
       color: theme.palette.text2,
       margin: "0",
@@ -112,7 +112,7 @@ const useStyles = createUseStyles((theme) => ({
       },
 
       "@media screen and (max-width: 350px)": {
-        fontSize: "16px",
+        fontSize: "15px",
       },
     },
   },

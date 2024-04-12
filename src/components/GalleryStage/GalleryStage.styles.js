@@ -26,7 +26,7 @@ const useStyles = createUseStyles((theme) => ({
     marginBottom: "25px",
 
     "& p": {
-      fontSize: "25px",
+      fontSize: "23px",
       fontFamily: "Inter, sans-serif",
       color: theme.palette.text2,
       margin: "0",
